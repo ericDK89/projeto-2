@@ -87,3 +87,43 @@ input:focus {
 .submit-btn:hover {
   background-color: #468cd8;
 }
+
+table {
+  width: 100%;
+}
+
+table th {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #211a1d;
+}
+
+table td {
+  padding: 1rem;
+  font-size: 1.25rem;
+  text-align: center;
+
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+table td img {
+  width: 36px;
+}
+
+.approved,
+.reproved {
+  padding: 0.5rem 1rem;
+
+  border: none;
+  border-radius: 6px;
+}
+
+.approved {
+  color: #fff;
+  background-color: #468cd8;
+}
+
+.reproved {
+  color: #fff;
+  background-color: #bd1e1e;
+}
