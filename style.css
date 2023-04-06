@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #cdcad5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  max-width: 1120px;
+  width: 100%;
+
+  margin: 5rem auto;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+
+  font-size: 2.5rem;
+}
+
+h1 img {
+  width: 35px;
+}
+
+#form-container {
+  display: grid;
+  grid-template-columns: 45% 20% 25%;
+  gap: 1rem;
+
+  width: 50%;
+}
+
+input,
+button {
+  padding: 0.5rem;
+  font-size: 1.125rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+#matter-input {
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+#grade-input {
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+#grade-input:focus {
+  outline: 1px solid black;
+}
+
+.submit-btn {
+  font-size: 1.25rem;
+  font-weight: 700;
+
+  border: none;
+
+  color: #fff;
+  background-color: blue;
+}

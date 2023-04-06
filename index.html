@@ -4,7 +4,55 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Calculadora de média</title>
   </head>
-  <body></body>
+  <body>
+    <section class="container">
+      <h1>
+        <img src="assets/logo.png" alt="Chapéu de formatura" />
+        Calculadora de média
+      </h1>
+
+      <form id="form-container">
+        <input type="text" placeholder="Matéria" required id="matter-input" />
+        <input
+          type="number"
+          placeholder="Nota"
+          required
+          id="grade-input"
+          min="0"
+          max="10"
+        />
+
+        <button type="submit" class="submit-btn">Adicionar +</button>
+      </form>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Nome da atividade</th>
+            <th>Nota</th>
+            <th>Aprovado?</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Trabalho de geografia</td>
+            <td>5</td>
+            <td><img src="assets/aprovado.png" alt="Aprovado" /></td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td>Média final</td>
+            <td>5</td>
+            <td>APROVADO</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+  </body>
 </html>
