@@ -5,7 +5,12 @@
 }
 
 body {
-  background-color: #cdcad5;
+  background-color: #e0e0e0;
+}
+
+input,
+body,
+button {
   font-family: "Roboto", sans-serif;
 }
 
@@ -52,24 +57,33 @@ input:focus {
 
 #matter-input {
   border: none;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #211a1d;
 }
 
 #grade-input {
-  border: 1px solid black;
-  border-radius: 4px;
-}
-
-#grade-input:focus {
-  outline: 1px solid black;
+  border: none;
+  border-bottom: 2px solid #211a1d;
 }
 
 .submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
   font-size: 1.25rem;
   font-weight: 700;
 
   border: none;
 
   color: #fff;
-  background-color: blue;
+  background-color: #2d7dd2;
+
+  cursor: pointer;
+
+  transition: all 0.2s;
+}
+
+.submit-btn:hover {
+  background-color: #468cd8;
 }
