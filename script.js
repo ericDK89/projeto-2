@@ -64,6 +64,6 @@ const updateFinalMediaTable = () => {
   const finalMediaValue = document.getElementById("final-media-value");
   const finalMediaResult = document.getElementById("final-media-result");
 
-  finalMediaValue.innerHTML = `<span>${media}</span>`;
+  finalMediaValue.innerHTML = `<span>${media.toFixed(2)}</span>`;
   finalMediaResult.innerHTML = media >= 7 ? approvedSpan : reprovedSpan;
 };
